@@ -3,7 +3,7 @@ import time
 
 class Simulation:
     """A monte carlo simulation to simulate the chances of 5 soccer clubs playing
-    against one another, higher sample_size for better resulsts"""
+    against one another, higher sample_size for better results"""
 
     def __init__(self, sample_size, seed=time.time()):
         self.seed = seed  # System time is used as the first seed if no seed is given.
@@ -81,7 +81,7 @@ class Simulation:
 
     def __str__(self):
         """Returns a string that tells the results of the simulation in a more
-        human readable languange and proper sentencing"""
+        human readable language and proper sentencing"""
         str = ""
         for i in self.outcomes:
             str += f"{i} heeft "
